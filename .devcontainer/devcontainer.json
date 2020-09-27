@@ -4,9 +4,9 @@
     "dockerfile": "Dockerfile",
     "args": {
       "USERNAME": "demouser",
-      "INSTALL_NODE": "true",
+      "INSTALL_NODE": "false",
       "NODE_VERSION": "lts/*",
-      "INSTALL_TYPESCRIPT": "true",
+      "INSTALL_TYPESCRIPT": "false",
       "INSTALL_AZURE_CLI": "true"
     }
   },
