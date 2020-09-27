@@ -14,10 +14,8 @@ ARG INSTALL_NODE="true"
 ARG NODE_VERSION="lts/*"
 ENV NVM_DIR=/usr/local/share/nvm
 
-# Install Typescript
+# Other tooling
 ARG INSTALL_TYPESCRIPT="true"
-
-# Install the Azure CLI
 ARG INSTALL_AZURE_CLI="true"
 
 WORKDIR /home/
