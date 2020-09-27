@@ -6,7 +6,7 @@
       "USERNAME": "demouser",
       "INSTALL_NODE": "true",
       "NODE_VERSION": "lts/*",
-      "INSTALL_TYPESCRIPT": "false",
+      "INSTALL_TYPESCRIPT": "true",
       "INSTALL_AZURE_CLI": "true"
     }
   },
