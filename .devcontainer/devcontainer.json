@@ -17,6 +17,7 @@
     "msjsdiag.vscode-react-native",
     "dsznajder.es7-react-js-snippets",
     "esbenp.prettier-vscode",
+    "visualstudioexptteam.vscodeintellicode",
     // DevOps, Azure, Git
     "ms-azure-devops.azure-pipelines",
     "msazurermtools.azurerm-vscode-tools",
@@ -27,13 +28,15 @@
     "ms-azuretools.vscode-docker",
     "oderwat.indent-rainbow",
     "vscode-icons-team.vscode-icons",
-    // Prereqs
-    "ms-vsliveshare.vsliveshare",
-    "visualstudioexptteam.vscodeintellicode"
+    // Prereqs etc.
+    "ms-vsliveshare.vsliveshare"
   ],
   "remoteUser": "demouser",
   "dockerFile": "Dockerfile",
   "forwardPorts": [5000, 5001],
+  "containerEnv": {
+    "ASPNETCORE_ENVIRONMENT": "Development"
+  },
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash",
     "files.exclude": {
