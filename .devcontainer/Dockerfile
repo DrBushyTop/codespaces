@@ -23,3 +23,4 @@ WORKDIR /home/
 COPY . .
 
 RUN bash ./setup.sh
+RUN bash ./setup-nvm.sh
