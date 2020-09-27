@@ -45,11 +45,6 @@ then
   apt-get -y install --no-install-recommends yarn;
 fi
 
-if [ "$INSTALL_TYPESCRIPT" = "true" ]
-then
-  bash npm install -g typescript
-fi
-
 if [ "$INSTALL_AZURE_CLI" = "true" ]
 then
     echo "deb [arch=amd64] https://packages.microsoft.com/repos/azure-cli/ $(lsb_release -cs) main" > /etc/apt/sources.list.d/azure-cli.list
