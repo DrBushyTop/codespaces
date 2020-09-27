@@ -1,0 +1,52 @@
+{
+  "name": "CodeSpaces Demo",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "args": {
+      "USERNAME": "demouser",
+      "INSTALL_NODE": "true",
+      "NODE_VERSION": "lts/*",
+      "INSTALL_TYPESCRIPT": "true",
+      "INSTALL_AZURE_CLI": "true"
+    }
+  },
+  "extensions": [
+    // .NET
+    "ms-dotnettools.csharp",
+    // React etc.
+    "msjsdiag.vscode-react-native",
+    "dsznajder.es7-react-js-snippets",
+    "esbenp.prettier-vscode",
+    // DevOps, Azure, Git
+    "ms-azure-devops.azure-pipelines",
+    "msazurermtools.azurerm-vscode-tools",
+    "ms-vscode.powershell",
+    "github.vscode-pull-request-github",
+    // Visual
+    "ms-azuretools.vscode-docker",
+    "oderwat.indent-rainbow",
+    "vscode-icons-team.vscode-icons",
+    // Prereqs
+    "ms-vsliveshare.vsliveshare",
+    "visualstudioexptteam.vscodeintellicode"
+  ],
+  "remoteUser": "demouser",
+  "dockerFile": "Dockerfile",
+  "forwardPorts": [5000, 5001],
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash",
+    "files.exclude": {
+      "**/.gitignore": true,
+      "**/SECURITY.md": true,
+      "**/LICENSE": true,
+      "**/bin": true,
+      "**/obj": true
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+  }
+}
