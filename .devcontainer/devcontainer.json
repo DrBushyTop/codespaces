@@ -22,6 +22,7 @@
     "msazurermtools.azurerm-vscode-tools",
     "ms-vscode.powershell",
     "github.vscode-pull-request-github",
+    "ms-vscode.azure-account",
     // Visual
     "ms-azuretools.vscode-docker",
     "oderwat.indent-rainbow",
