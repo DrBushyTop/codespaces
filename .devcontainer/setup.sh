@@ -28,7 +28,7 @@ if [ "$INSTALL_NODE" = "true" ]
 then
   # Install nvm and Node
   mkdir -p ${NVM_DIR}
-  curl -so- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash 2>&1
+  curl -so- https://raw.githubusercontent.com/nvm-sh/nvm/v0.36.0/install.sh | bash 2>&1
   chown -R ${USER_UID}:${USER_GID} ${NVM_DIR}
   /bin/bash -c "source $NVM_DIR/nvm.sh \
       && nvm alias default ${NODE_VERSION}" 2>&1

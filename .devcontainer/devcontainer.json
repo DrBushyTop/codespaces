@@ -1,5 +1,5 @@
 {
-  "name": "CodeSpaces Demo",
+  "name": "Codespaces Demo",
   "build": {
     "dockerfile": "Dockerfile",
     "args": {
